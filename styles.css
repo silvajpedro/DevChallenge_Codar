@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    width: 98.5%;
+    height: 15vh;
+    /* border: solid; */
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+h1 {
+    color: rgb(218, 1, 1);
+    font-family: "Roboto italic", sans-serif;
+    font-weight: bolder;
+    font-size: 45px;
+    display: flex;
+}
+
+span {
+    position: relative;
+    top: 5.5vh;
+    width: 7px;
+    height: 7px;
+    left: 0.1vw;
+    background-color: black;
+    border-radius: 100%;
+}
+
+nav {
+    display: flex;
+    /* border: solid purple; */
+    width: 78%;
+    justify-content: flex-end;
+    height: 7vh;
+    padding-right: 10px;
+}
+
+ul {
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    /* border: solid yellow; */
+    align-items: center;
+    font-size: 25px;
+}
+
+li {
+    cursor: pointer;
+    transition: ease-in-out 0s;
+    font-weight: 400;
+}
+
+li:hover {
+    transform: scale(110%);
+}
+
+button {
+    color: white;
+    background-color: #D6000D;
+    border: none;
+    width: 10.5vw;
+    height: 6.8vh;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: ease-in-out 0.2s;
+    transform: scale(105%);
+}
+
+main {
+    position: relative;
+    top: 8vh;
+    display: flex;
+    /* border: solid; */
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+figure {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstMainImg {
+    width: 32vw;
+    transition: ease-in-out 0.2s;
+}
+
+.firstMainImg:hover {
+    transform: scale(102%);
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.firstDiv {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+section p {
+    font-weight: 700;
+    font-size: 24.5px;
+}
+
+section h2 {
+    color: #D6000D;
+    font-size: 4.5vw;
+}
+
+section button {
+    position: relative;
+    top: 4vh;
+    width: 23vw;
+    height: 9vh;
+    font-size: 25px;
+}
+
+.secondSection {
+    position: relative;
+    top: 40vh;
+    align-items: center;
+}
+
+.secondSection div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 42vh;
+}
+
+.secondSection p {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+
+    align-items: center;
+}
+
+.secondSection p img {
+    width: 4vw;
+    padding-right: 22px;
+}
+
+.secondMainImg {
+    width: 35vw;
+}
+
+.secondMainDiv {
+    position: relative;
+    top: 38vh;
+    left: 10vw;
+    width: 40%;
+    height: 18vh;
+}
+
+.secondMainDiv p {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.secondMainDiv input {
+    position: relative;
+    top: 2vh;
+    background-color: rgb(207, 206, 206);
+    height: 8vh;
+    width: 40%;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+}
+
+.secondMainDiv input::placeholder {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.secondMainDiv button {
+    position: relative;
+    top: 2.5vh;
+    left: 0.4vw;
+    width: 45%;
+    height: 8vh;
+}
+
+.thirdSection {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 45px;
+    padding-right: 45px;
+    position: relative;
+    top: 70vh;
+    height: 40vh;
+}
+
+.firstDepoiment,
+.secondDepoiment {
+    width: 47%;
+    height: 26vh;
+    background-color: rgb(227, 225, 225);
+    border-radius: 10px;
+}
+
+.roundCircle {
+    position: relative;
+    top: 2.5vh;
+    left: 2.2vw;
+    width: 7vw;
+    height: 14vh;
+    border-radius: 100%;
+    background-color: #D6000D;
+}
+
+.clientDepoimentOne, .clientDepoimentwo {
+    position: relative;
+    left: 11vw;
+    top: -10vh;
+    font-size: 1.3vw;
+    font-weight: 400;
+    width: 70%;
+}
+.clientDepoimentwo{
+    top: -11vh;
+    font-size: 1.53vw;
+}
+h3{
+    position: relative;
+    left: 11vw;
+    top: -9vh;
+    font-size: 1.9vw;
+    font-weight: 500;
+    width: 30%;
+}
+.secondh3{
+    position: relative;
+    top: -10vh;
+}
+.clientCompany, .clientCompanytwo{
+    position: relative;
+    top: -9.5vh;
+    left: 11vw;
+    width: 50%;
+    font-size: 1.2vw;
+}
+.clientCompanytwo{
+    top: -10.4vh;
+}
+footer{
+    position: relative;
+    top: 80vh;
+    height: 45vh;
+    background-color: black;
+    color: white;
+}
+footer h2{
+    position: relative;
+    top: 8vh;
+    left:3.5vw;
+    font-size: 3vw;
+    width: 10%;
+    font-weight: 500;
+}
+.firstPfooter{
+    position: relative;
+    top: 12vh;
+    left: 3.5vw;
+    width: 20%;
+    /* border: solid white; */
+    font-size: 1.4vw;
+}
+.firstfooterh3{
+    position: relative;
+    top: -2vh;
+    left: 28vw;
+    font-size:1.8vw;
+    font-weight: 500;
+}
+.secondPfooter{
+    position: relative;
+    left: 28vw;
+    top: 1.5vh;
+    width: 14.5%;
+    font-size: 1.3vw;
+}
+.firstfooterBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    left: 51vw;
+    top: -15.5vh;
+    width: 20%;
+    height: 28vh;
+}
+.firstfooterBox h3{
+    position: relative;
+    left: 0;
+    top: 0;
+    font-weight: 600;
+}
+.firstfooterBox a{
+    color: white;
+}
+.secondfooterBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: -41vh;
+    left: 70vw;
+    width: 20%;
+    height: 20vh;
+    color: white;
+}
+.secondfooterBox p{
+    position: relative;
+    top: -2vh;
+    left: 1vw;
+    font-size: 2.1vw;
+    font-weight: 600;
+}
+.secondfooterBox nav{
+    border: solid transparent;
+    height: 10vh;
+}
+.sameIcon{
+    height: 8vh;
+}
+.thirdIcon{
+    height: 8vh;
+}
